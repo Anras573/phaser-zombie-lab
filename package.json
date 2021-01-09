@@ -1,7 +1,7 @@
 {
-  "name": "phaser-bootstrap",
+  "name": "phaser-zombie-lab",
   "version": "1.0.0",
-  "description": "",
+  "description": "2D game made with phase where you shoot Zimbies in a laboratory",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "dev": "webpack --watch --mode=development"
   },
   "keywords": [],
-  "author": "",
+  "author": "Anders Bo Rasmussen (anras573@gmail.com)",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.11.4",

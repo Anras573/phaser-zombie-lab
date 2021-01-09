@@ -1,0 +1,73 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "laboratory-map-big.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "Player_sheet_as_tilemap.tmx": {
+            "scale": 6.2046874999999995,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 28.607403676655753,
+                "y": 26.431629312515746
+            }
+        },
+        "laboratory-map-big.tmx": {
+            "scale": 0.30022681451612904,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 224.83001762780168,
+                "y": 219.83379501385048
+            }
+        },
+        "laboratory-map.tmx": {
+            "scale": 0.41,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 481.7073170731707,
+                "y": 465.8536585365854
+            }
+        },
+        "spritesheet_characters.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1.8579
+        },
+        "tilesheet_complete.tsx": {
+            "scaleInDock": 0.747,
+            "scaleInEditor": 0.54
+        },
+        "tilesheet_complete_2X.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 0.54
+        }
+    },
+    "map.height": 30,
+    "map.lastUsedExportFilter": "JSON map files (*.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 30,
+    "openFiles": [
+        "laboratory-map.tmx",
+        "tilesheet_complete.tsx",
+        "tilesheet_complete_2X.tsx",
+        "laboratory-map-big.tmx"
+    ],
+    "project": "Laboratory.tiled-project",
+    "recentFiles": [
+        "laboratory-map.tmx",
+        "tilesheet_complete.tsx",
+        "tilesheet_complete_2X.tsx",
+        "laboratory-map-big.tmx",
+        "Player_sheet_as_tilemap.tmx",
+        "spritesheet_characters.tsx"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 1,
+    "tileset.spacing": 1
+}
