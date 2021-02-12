@@ -17,11 +17,16 @@ export default class Bullets extends Phaser.Physics.Arcade.Group {
   }
 
   enemyCollision(zombie, bullet) {
-    bullet.active = false
-    bullet.visible = false
-    bullet.disableBody()
+    Bullets.disable(bullet)
 
     zombie.takeHit()
+  }
+
+  static disable(bullet) {
+    bullet.disableBody()
+    bullet.active = false
+    bullet.visible = false
+    bullet.setVelocity(0)
   }
 
   fireBullet(x, y, directionX, directionY) {
@@ -38,12 +43,7 @@ export default class Bullets extends Phaser.Physics.Arcade.Group {
 
       this.scene.time.addEvent({
         delay: 1500,
-        callback: () => {
-          bullet.disableBody()
-          bullet.active = false
-          bullet.visible = false
-          bullet.setVelocity(0)
-        }
+        callback: () => Bullets.disable(bullet)
       })
     }
   }
